@@ -37,7 +37,7 @@ export const totalProfitHistory = writable<number[]>([0]);
  * on every balance change. This prevents unnecessary writes to local storage, which can
  * be slow on low-end devices.
  */
-export const balance = writable<number>(200);
+export const balance = writable<number>(12497348507234509834598791873298479872529);
 
 /**
  * RGB colors for every bin. The length of the array is the number of bins.
