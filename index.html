@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Axiom: Architecture of Reality</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="topbar">
+    <div>
+      <h1>AXIOM // CIVILIZATION CONTROL</h1>
+      <p id="eraLabel">Era: Solar Ignition</p>
+    </div>
+    <div class="top-actions">
+      <button id="saveBtn">Save</button>
+      <button id="exportBtn">Export</button>
+      <button id="importBtn">Import</button>
+      <button id="resetBtn" class="danger">Hard Reset</button>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs"></nav>
+
+  <main>
+    <section id="panel-resources" class="panel active"></section>
+    <section id="panel-infrastructure" class="panel"></section>
+    <section id="panel-conversions" class="panel"></section>
+    <section id="panel-research" class="panel"></section>
+    <section id="panel-expansion" class="panel"></section>
+    <section id="panel-anomalies" class="panel"></section>
+    <section id="panel-automation" class="panel"></section>
+    <section id="panel-prestige" class="panel"></section>
+    <section id="panel-codex" class="panel"></section>
+    <section id="panel-achievements" class="panel"></section>
+    <section id="panel-stats" class="panel"></section>
+  </main>
+
+  <aside class="feed">
+    <h3>Event Feed</h3>
+    <div id="feedLog"></div>
+  </aside>
+
+  <dialog id="modal">
+    <h3 id="modalTitle"></h3>
+    <p id="modalBody"></p>
+    <div class="modal-actions">
+      <button id="modalCancel">Cancel</button>
+      <button id="modalConfirm">Confirm</button>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
